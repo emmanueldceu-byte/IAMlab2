@@ -1,0 +1,8 @@
+Simulate a secure enterprise environment focusing on:
+
+Admin privilege control
+Just-in-time access (manual simulation)
+Hardening Active Directory
+Attack detection
+
+This is for IAM/security roles.
