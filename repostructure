@@ -1,0 +1,25 @@
+onprem-pam-lab/
+│
+├── README.md
+├── architecture/
+│   └── pam-design.md
+│
+├── privilege-management/
+│   ├── jit-access.ps1
+│   └── admin-separation.md
+│
+├── hardening/
+│   ├── gpo-settings.md
+│   └── security-baseline.ps1
+│
+├── simulations/
+│   ├── brute-force.ps1
+│   └── unauthorized-access.md
+│
+├── monitoring/
+│   ├── log-analysis.ps1
+│   └── alerting.md
+│
+└── docs/
+    ├── setup-guide.md
+    └── findings-report.md
