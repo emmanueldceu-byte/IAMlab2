@@ -6,3 +6,31 @@ Hardening Active Directory
 Attack detection
 
 This is for IAM/security roles.
+What You’ll Implement
+👑 1. Privileged Access Model
+Separate accounts:
+Normal user account
+Admin account
+Admins only log in to servers, not user machines
+⏱ 2. Just-in-Time (JIT) Access Simulation
+Script to:
+Add user to admin group temporarily
+Remove after X minutes
+🔒 3. Security Hardening
+Disable:
+Legacy protocols (SMBv1, NTLMv1)
+Enforce:
+Strong password policies
+Account lockouts
+Use Group Policy (GPO)
+🕵️ 4. Attack Simulation
+Simulate:
+Brute force login attempts
+Unauthorized access to folders
+Capture logs
+📊 5. Monitoring & Alerting
+Parse:
+Event logs (4624, 4625, etc.)
+Detect:
+Failed login spikes
+Privilege escalation
